@@ -1,0 +1,14 @@
+#mysql
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/healthy?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 6Rx9vZxzTgmhWddZ.
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  #type-aliases-package: com.exapple.demo.model
+
+server:
+  port: 9000
